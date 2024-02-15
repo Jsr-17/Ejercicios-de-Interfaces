@@ -19,6 +19,7 @@ public abstract class FormularioPadre implements Formulario {
     @Override
     public void enviarFormulario(Object uno) {
         FormularioPadre formulario= (FormularioPadre)uno;
+        
     System.out.println(
         "Los datos enviados son: \n"+
         "Nombre: "+formulario.nombre+
